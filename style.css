@@ -1,0 +1,82 @@
+html, body {
+  background: rgb(20,20,20);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+.svg-wrapper {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px;  
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+.text2 {
+  font-family: 'Roboto Condensed';
+  text-align: center;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 4px;
+  color: #fff;
+  top: 240px;
+  position: relative;
+}
+
+.text3 {
+  font-family: 'Roboto Condensed';
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 4px;
+  color: #19f6e8;
+  top: 278px;
+  position: relative;
+}
+
+.imagereso {
+  position: relative;
+}
+
+.social-icons {
+  text-align: center;
+  }  
+  .social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+  .social-icons li a {
+  border-bottom: none;
+  }
+  .social-icons li img {
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+  }
+
+
+
